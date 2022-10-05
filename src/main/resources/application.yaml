@@ -1,0 +1,23 @@
+google:
+  api:
+    key: AIzaSyBe-uM-7bZS_wwyOzESVS-OgXgFlaDGWbg
+    scheme: https
+    url: maps.googleapis.com/maps/api/place/nearbysearch/json
+
+server:
+  port: 8070
+
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:testdb
+    #default username sa and password is empty
+    driver-class-name: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: create
