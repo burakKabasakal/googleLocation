@@ -1,6 +1,6 @@
 google:
   api:
-    key: AIzaSyBe-uM-7bZS_wwyOzESVS-OgXgFlaDGWbg
+    key: ${keyValue}
     scheme: https
     url: maps.googleapis.com/maps/api/place/nearbysearch/json
 
